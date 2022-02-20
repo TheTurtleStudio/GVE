@@ -1,0 +1,17 @@
+#This is an example of a BVE "function".
+
+
+#[START]#
+class exampleFunction():
+	def add_5(number):
+		print(number + 5)
+	def subtract_5(number):
+		print(number - 5)
+#[END]#
+
+
+#PLEASE NOTE: All "functions" will be executed and initialized when the environment is spawned. A "function" refers to BVE's concept of a function and not
+#necessarily standard Python function concepts. BVE's "function" concept consists of, when possible or needed, nested Python functions within classes; where
+#origin (where nested classes and functions reside) class names correspond exactly to the name of the file in which they are in.
+
+#PLEASE NOTE: BVE functions can contain any Python code you want, they can even access other BVE functions as they are in the same scope.
