@@ -20,4 +20,3 @@ poplib
 trace
 inspect
 socket
-g

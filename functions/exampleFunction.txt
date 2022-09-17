@@ -1,5 +1,4 @@
-#This is an example of a BVE "function".
-
+#This is an example of a function
 
 #[START]#
 class exampleFunction():
@@ -10,8 +9,8 @@ class exampleFunction():
 #[END]#
 
 
-#PLEASE NOTE: All "functions" will be executed and initialized when the environment is spawned. A "function" refers to BVE's concept of a function and not
-#necessarily standard Python function concepts. BVE's "function" concept consists of, when possible or needed, nested Python functions within classes; where
-#origin (where nested classes and functions reside) class names correspond exactly to the name of the file in which they are in.
+#PLEASE NOTE: All code will be executed when the environment is spawned. As such, I'd recommend you encapsulate your functions in a class and use
+#the structure as seen in this document for better usability. You don't even have to make them functions, you can just write regular lines of code
+#and they will execute.
 
-#PLEASE NOTE: BVE functions can contain any Python code you want, they can even access other BVE functions as they are in the same scope.
+#MY SECOND LESS IMPORTANT NOTE: Gevvy functions can access other Gevvy functions, they're all in the same scope.

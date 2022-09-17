@@ -1,8 +1,7 @@
-#The BVE function residing in this file is to aid in user-experience and help BVE be more user-friendly.
-#Altering BVE function data in this file may inconvenience the user. Do so at your own risk.
+#The _COMM class defines useful (in my opinion) QOL functions to be shipped with Gevvy. Alter as you please.
 
 class _COMM():
-	def getFunctions():	
+	def getFunctions(): #Displays all functions
 		print("\n<<: ".join(functions))
-	def getLibraries():
+	def getLibraries(): #Displays all libraries
 		sys.stdout.write("<<: ");sys.stdout.write(f'{", ".join(libs)}\n')
